@@ -1,0 +1,8 @@
+.div-menu .navbar-toggler, .div-menu a {
+    color: black !important;
+}
+.div-menu .btn-primary{
+  color: #0AD467 !important;
+  background-color: white !important;
+  border-color: white !important;
+}

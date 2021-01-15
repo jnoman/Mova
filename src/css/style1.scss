@@ -1,0 +1,459 @@
+/*    menu   */
+
+.div-menu {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    background-color: transparent !important;
+    .navbar-toggler,
+    a {
+        color: white !important;
+        margin-right: 45px;
+    }
+    .navbar-toggler {
+        border-color: white;
+        .spanWhite {
+            color: white;
+        }
+    }
+}
+@media screen and (max-width: 975px) {
+    .div-menu {
+        background-color: #0ad467 !important;
+    }
+}
+
+.btn-primary {
+    padding: 2px 30px !important;
+    background-color: #0ad467 !important;
+    border-radius: 10px;
+    border-color: #0ad467 !important;
+}
+.btn-primary:hover {
+    background-color: #0ad467;
+    border-color: #0ad467;
+}
+
+/*    menu   */
+
+.div-map {
+    height: 400px;
+    background: url("./../images/map2.PNG") center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    h4 {
+        padding-top: 20px;
+        margin: 0px 0px 30px 40px;
+        font-family: DM Sans;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+        color: #212144;
+    }
+    p {
+        margin-left: 40px;
+        font-family: Roboto;
+        font-size: 25px;
+        line-height: 29px;
+        color: #212144;
+    }
+}
+
+/*    footer   */
+
+.div-footer {
+    background: #212144;
+    color: white;
+    padding-top: 30px;
+    a {
+        color: white;
+        i {
+            margin-right: 20px;
+        }
+    }
+    i {
+        font-size: 26px;
+        margin-right: 7px;
+    }
+    .contact {
+        p {
+            font-size: 13px;
+        }
+    }
+}
+
+/*    NousSupporter   */
+
+.div-NousSupporter {
+    .mb-3 {
+        margin-bottom: 0rem !important;
+    }
+    .NousSupporter-text {
+        padding-top: 100px;
+        p {
+            padding-top: 20px;
+            text-align: center;
+            font-size: 27px;
+        }
+        .div-hl {
+            padding-top: 30px;
+            width: 100%;
+            padding-right: 100px;
+            p {
+                text-align: right;
+                letter-spacing: -2px;
+            }
+        }
+        .NousSupporter-form {
+            padding-bottom: 60px;
+            .NousSupporter-nom {
+                border: 1px solid #c4c4c4;
+                box-sizing: border-box;
+                border-radius: 20px;
+                width: 50%;
+                height: 44px;
+                margin-left: 50px;
+                font-weight: bold;
+                font-size: 24px;
+                color: #c4c4c4;
+            }
+            .btn-primary {
+                margin-left: 50px;
+                padding: 40px;
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+    }
+    .NousSupporter-image {
+        background-color: #0ad467;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 80%;
+            padding: 10%;
+        }
+    }
+}
+
+/*    Accueil   */
+
+.div-Accueil {
+    .div-Accueil-header {
+        background: url("./../images/image-1.png") no-repeat;
+        height: 1000px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        h1 {
+            padding-top: 300px;
+            padding-left: 5%;
+            font-weight: 900;
+            font-size: 80px;
+            display: inline-block;
+        }
+        h1:after {
+            position: relative;
+            content: "";
+            width: 53%;
+            left: 42%;
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-bottom: 10px solid #0ad467;
+        }
+    }
+    .div-Accueil-liner {
+        position: relative;
+        top: -500px;
+        height: 600px;
+        margin-bottom: -500px;
+        background-color: #0ad467;
+        background: linear-gradient(
+            180deg,
+            #0ad467 20.86%,
+            rgba(248, 248, 248, 0.01) 102.11%
+        );
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        p {
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 40px;
+            align-items: center;
+            letter-spacing: -1px;
+            padding-bottom: 180px;
+        }
+    }
+    .div-Accueil-green {
+        background-color: #0ad467;
+        .div-Accueil-green-2 {
+            .card-group {
+                position: relative;
+                top: 140px;
+            }
+        }
+        .div-Accueil-green-1,
+        .div-Accueil-green-2 {
+            .card-group {
+                width: 80%;
+                margin-left: 10%;
+                .card {
+                    margin: 2%;
+                    border: 3px solid #13132f;
+                    border-radius: 20px 20px 0px 0px;
+                    .card-top-img {
+                        width: 40%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: -40px;
+                    }
+                    p {
+                        text-align: center;
+                    }
+                    .card-title {
+                        font-family: DM Sans;
+                        font-weight: bold;
+                        font-size: 25px;
+                        color: #212144;
+                    }
+                    .card-text {
+                        font-family: DM Sans;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 26px;
+                        letter-spacing: -0.01em;
+                        color: #808080;
+                        padding-top: 20px;
+                    }
+                    .card-icon {
+                        width: 40px;
+                        padding-top: 20px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .div-Accueil {
+        .div-Accueil-header {
+            h1 {
+                padding-top: 200px;
+                padding-left: 5%;
+                font-weight: 900;
+                font-size: 50px;
+            }
+        }
+        .div-Accueil-liner {
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .div-Accueil {
+        .div-Accueil-header {
+            h1 {
+                padding-top: 150px;
+                padding-left: 5%;
+                font-weight: 900;
+                font-size: 30px;
+            }
+        }
+        .div-Accueil-liner {
+            p {
+                font-size: 22px;
+            }
+        }
+        .div-Accueil-green {
+            .div-Accueil-green-1,
+            .div-Accueil-green-2 {
+                .card-group {
+                    .card {
+                        margin-top: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*    QuiSommesNous   */
+
+.div-QuiSommesNous {
+    .div-QuiSommesNous-header {
+        background: url("./../images/qui-somles-nous.png") no-repeat;
+        height: 1000px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        .div-QuiSommesNous-header-green {
+            position: relative;
+            top: 500px;
+            height: 500px;
+            background: linear-gradient(
+                180deg,
+                rgba(10, 212, 103, 0.8) 11.48%,
+                rgba(248, 248, 248, 0.008) 102.11%
+            );
+            transform: rotate(-180deg);
+        }
+    }
+    .div-QuiSommesNous-text {
+        text-align: center;
+        h1 {
+            margin: 70px;
+            font-family: DM Sans;
+            font-weight: bold;
+            font-size: 50px;
+            align-items: center;
+            color: #0ad467;
+            display: inline-block;
+        }
+        h1:after {
+            position: relative;
+            content: "";
+            width: 50%;
+            left: 25%;
+            display: block;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            border-bottom: 6px solid #0ad467;
+        }
+        p {
+            font-family: DM Sans;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 50px;
+            align-items: center;
+            color: #212144;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+    .div-QuiSommesNous-icons {
+        h1:after {
+            border-bottom-width: 12px;
+        }
+        .card-group {
+            width: 80%;
+            margin-bottom: 70px;
+            margin-left: 10%;
+            .card {
+                margin: 2%;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px 15px 0px 0px;
+                border-top-color: #fff;
+                border-left-color: #fff;
+                .card-top-img {
+                    width: 40%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: -40px;
+                }
+                p {
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: #212144;
+                }
+            }
+        }
+    }
+    .div-QuiSommesNous-fondateurs {
+        margin-bottom: -60px;
+        background: #212144;
+        h3 {
+            font-family: DM Sans;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+            letter-spacing: 0.002em;
+            color: #ffffff;
+            padding: 50px;
+        }
+        .card-group {
+            margin-bottom: 80px;
+            .card {
+                background-color: transparent !important;
+                width: 300px;
+                margin-left: 10%;
+                .card-body {
+                    .card-body-color {
+                        width: 300px;
+                        height: 300px;
+                        background: #c4c4c4;
+                    }
+                    p {
+                        padding: 20px;
+                        font-size: 25px;
+                        width: 300px;
+                        text-align: center;
+                        a {
+                            color: white;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .div-QuiSommesNous {
+        .div-QuiSommesNous-icons {
+            .card-group {
+                .card {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .div-QuiSommesNous-fondateurs {
+            .card-group {
+                .card {
+                    width: 250px;
+                    margin-left: 5%;
+                    .card-body {
+                        .card-body-color {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        p {
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .div-QuiSommesNous {
+        .div-QuiSommesNous-icons {
+            .card-group {
+                margin-bottom: 0px;
+                .card {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
