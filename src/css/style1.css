@@ -1015,4 +1015,352 @@
     padding-left: 10px;
   }
 }
+/*    NousRejoindre   */
+.div-Entreprise .div-Entreprise-header {
+  height: 800px;
+}
+.div-Entreprise .div-Entreprise-header img {
+  width: 100%;
+  height: 800px;
+}
+.div-Entreprise .div-Entreprise-header .card {
+  color: #ffffff;
+  position: relative;
+  top: -700px;
+  width: 100%;
+  background-color: transparent;
+  border-width: 0px;
+}
+.div-Entreprise .div-Entreprise-header .card h3 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  display: inline-block;
+  padding-left: 20px;
+}
+.div-Entreprise .div-Entreprise-header .card h3:after {
+  position: relative;
+  content: "";
+  width: 40%;
+  left: 30%;
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-bottom: 10px solid #0ad467;
+}
+.div-Entreprise .div-Entreprise-header .card p {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  display: inline-block;
+  padding-left: 20px;
+}
+.div-Entreprise .div-Entreprise-content .row {
+  margin: 50px 0px 150px 0px;
+}
+.div-Entreprise .div-Entreprise-content .row .col-sm-6 img {
+  width: 85%;
+  margin: 0px 7.5%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 {
+  display: flex;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .div-text {
+  padding-left: 20px;
+  margin: auto;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .div-text h4 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.01em;
+  color: #212144;
+  margin-bottom: 70px;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .div-text p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #808080;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .card-group {
+  margin-top: 30px;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .card-group .card {
+  text-align: center;
+  border-width: 0px;
+  margin: 0px 2% 70px 2%;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .card-group .card .card-top-img {
+  margin: 0px auto;
+  width: 60px;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .card-group .card .card-title {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-content .row .col-md-6 .card-group .card .card-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #808080;
+}
+.div-Entreprise .div-Entreprise-garantit {
+  margin: 50px 0px;
+  text-align: center;
+}
+.div-Entreprise .div-Entreprise-garantit h4 {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #212144;
+  margin-bottom: 80px;
+}
+.div-Entreprise .div-Entreprise-garantit .card {
+  border-width: 0px;
+  background-color: transparent !important;
+}
+.div-Entreprise .div-Entreprise-garantit .card img {
+  width: 100px;
+  margin: 0px auto;
+}
+.div-Entreprise .div-Entreprise-garantit .card p {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-card .card-group .card {
+  text-align: center;
+  border-width: 0px;
+  margin: 0px 2% 70px 2%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+}
+.div-Entreprise .div-Entreprise-card .card-group .card img {
+  margin: 0px auto;
+  margin-top: -40px;
+}
+.div-Entreprise .div-Entreprise-card .card-group .card .card-title {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.2px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-card .card-group .card .card-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #808080;
+}
+.div-Entreprise .div-Entreprise-button {
+  text-align: center;
+}
+.div-Entreprise .div-Entreprise-button .btn-primary {
+  display: inline-block;
+  margin: 0px auto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.div-Entreprise .div-Entreprise-flexible {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.div-Entreprise .div-Entreprise-flexible h4 {
+  margin: 60px 0px;
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 48px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-flexible .card-group .card {
+  margin: 20px 5%;
+  background-color: transparent;
+  border-width: 0px;
+}
+.div-Entreprise .div-Entreprise-flexible .card-group .card img {
+  width: 100%;
+}
+.div-Entreprise .div-Entreprise-flexible .card-group .card .card-body {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  background-color: white;
+}
+.div-Entreprise .div-Entreprise-flexible .card-group-second .card {
+  margin: 0px 15%;
+}
+.div-Entreprise .div-Entreprise-quotidiens {
+  padding-top: 40px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .card {
+  border-width: 0px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-5 {
+  padding: 20px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-5 h3 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #212144;
+  margin-bottom: 30px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-5 p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #808080;
+  margin-bottom: 30px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-5 .div-Entreprise-button {
+  text-align: left;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-7 .card-group .card {
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  margin: 20px 1%;
+  background-color: transparent;
+  border-width: 0px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-7 .card-group .card img {
+  width: 100%;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-7 .card-group .card .card-body {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+}
+.div-Entreprise .div-Entreprise-quotidiens .col-md-7 .card-group .card .card-body p {
+  font-weight: 500;
+  font-size: 19px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-Solution h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.div-Entreprise .div-Entreprise-Solution .card {
+  padding-left: 20px;
+  background-color: #f2f2f2;
+}
+.div-Entreprise .div-Entreprise-Solution .card h5 {
+  margin: 50px 0px 160px 0px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-Solution .card p {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  color: #212144;
+}
+.div-Entreprise .div-Entreprise-Solution .card p i {
+  color: #0ad467;
+}
+.div-Entreprise .div-Entreprise-Solution .card img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.div-Entreprise .div-Entreprise-marche {
+  margin: 50px 0px;
+  text-align: center;
+}
+.div-Entreprise .div-Entreprise-marche h4 {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #212144;
+  margin-bottom: 80px;
+}
+.div-Entreprise .div-Entreprise-marche .card {
+  border-width: 0px;
+  margin: 3%;
+  background-color: transparent !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.div-Entreprise .div-Entreprise-marche .card .card-title {
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #0ad467;
+}
+.div-Entreprise .div-Entreprise-marche .card .card-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #212144;
+}
+
+@media screen and (max-width: 860px) {
+  .div-Entreprise .div-Entreprise-header .card h3 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  .div-Entreprise .div-Entreprise-header .card h3:after {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 5px solid #0ad467;
+  }
+  .div-Entreprise .div-Entreprise-header .card p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .div-Entreprise .div-Entreprise-content .row .col-md-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .div-Entreprise .div-Entreprise-flexible .card-group-second .card {
+    margin: 20px 5%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .div-services .div-services-content .row .col-md-5,
+.div-services .div-services-content .row .col-md-7 {
+    width: 100%;
+  }
+  .div-services .div-services-autre .card-group {
+    flex-flow: column wrap !important;
+  }
+  .div-services .div-services-autre .card-group .card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-services .div-services-autre .card-group-first {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=style1.css.map */
