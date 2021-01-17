@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import DivFooter from "./../component/DivFooter";
 import Map from "./../component/Map";
+import DivMarche from "./../component/DivMarche1";
 
 export default function Accueil() {
     return (
@@ -28,7 +29,7 @@ export default function Accueil() {
                             <div className="card-body">
                                 <p className="card-title">Livraison à domicile</p>
                                 <p className="card-text">Faites vous livrer tout ce que vous<br />voulez en  moins de 30 min.</p>
-                                <Link to="/ivraisonDomicile"><img className="card-icon" src="./../images/flech.PNG" /></Link>
+                                <Link to="/livraisonDomicile"><img className="card-icon" src="./../images/flech.PNG" /></Link>
                             </div>
                         </div>
                         <div className="card">
@@ -109,11 +110,9 @@ export default function Accueil() {
                             <img src="./../images/phone.PNG" alt="..."></img>
                         </div>
                         <div className="col-md-7">
-                            <div className="NousSupporter-image">
                                 <h5 className="card-title">Ne lévez plus le doigt, obtenez désormais l’assistance physique dont vous avez besoin <img src="./../images/hand.PNG" alt="..."></img></h5>
                                 <p className="card-text">Vous avez des objets lourds et avez besoin d'aide ? Réservez un assistant à la demande en 2 min. L’équipe entièrement vérifiée du MOVA est prête à déplacer des meubles et même des montagnes.</p>
                                 <img src="./../images/assistant.PNG" alt="..."></img>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -156,7 +155,7 @@ export default function Accueil() {
                 </div>
             </div>
             <div className="div-Accueil-aimer">
-                <h4>Raisons pour aimer MOVA <img src="./../images/vector12.PNG" className="card-top-img" alt="..." /></h4>
+                <h4>Raisons pour aimer MOVA<img src="./../images/vector12.PNG" className="card-top-img" alt="..." /></h4>
                 <div className="card-group">
                     <div className="card">
                         <img src="./../images/vector13.PNG" className="card-top-img" alt="..." />
@@ -204,39 +203,7 @@ export default function Accueil() {
                     </div>
                 </div>
             </div>
-            <div className="div-Accueil-marche">
-                <h4>Comment ça marche</h4>
-                <div className="card-group">
-                    <div className="card">
-                        <img src="./../images/phone1.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p className="card-title">1</p>
-                            <p className="card-text">Entrer adresses</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="./../images/phone2.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p className="card-title">2</p>
-                            <p className="card-text">Sélectionner véhicule et/ou assistants</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="./../images/phone3.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p className="card-title">3</p>
-                            <p className="card-text">Fixer date et heure</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="./../images/phone4.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p className="card-title">4</p>
-                            <p className="card-text">Évaluer le service</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <DivMarche></DivMarche>
             <div className="div-Accueil-prochaine">
                 <h4>La prochaine fois, quand vous pensez une tâche lourde...</h4>
                 <img src="./../images/prochaine.PNG" className="card-top-img" alt="..." />
@@ -247,15 +214,11 @@ export default function Accueil() {
                 <div className="card-group">
                     <div className="card">
                         <img src="./../images/Rejoindre1.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p>Devenez partenaire <i className="fas fa-arrow-right"></i></p>
-                        </div>
+                        <p>Devenez partenaire <i className="fas fa-arrow-right"></i></p>
                     </div>
                     <div className="card">
                         <img src="./../images/Rejoindre2.PNG" className="card-top-img" alt="..." />
-                        <div className="card-body">
-                            <p>Devenez MOVA PRO <i className="fas fa-arrow-right"></i></p>
-                        </div>
+                        <p className="second">Devenez MOVA PRO <i className="fas fa-arrow-right"></i></p>
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@ function App() {
         <Route path="/faireDon" component={FaireDon}/>
         <Route path="/livraisonMarketplace" component={LivraisonMarketplace}/>
         <Route path="/débarasserObjet" component={DébarasserObjet}/>
-        <Route path="/ivraisonDomicile" component={LivraisonDomicile}/>
+        <Route path="/livraisonDomicile" component={LivraisonDomicile}/>
         <Menu></Menu>
       </div>
     </Router>

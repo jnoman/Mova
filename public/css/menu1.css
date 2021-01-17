@@ -3,6 +3,7 @@
 }
 .div-menu .navbar-toggler, .div-menu .btn-primary{
   color: white !important;
+  background-color: #0AD467 !important;
 }
 @media screen and (max-width: 975px){
   .div-menu{
